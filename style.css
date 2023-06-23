@@ -1,0 +1,131 @@
+#s1,#s2,#s3,#s4
+{
+    border: hidden;
+    border-style: hidden;
+    color: black;
+   text-align: center;
+   padding: 5px;
+   outline: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   font-family: 'Source Sans Pro Topnav', sans-serif;
+   font-size: 14px;
+   margin-bottom: 0;
+   /* margin-right: 10px;
+   margin-left: 10px; */
+}
+option
+{
+    text-align: center;
+}
+#s1:hover{
+    background-color: rgb(58, 181, 118);
+    color: white;
+    transition: 0.1s;
+    border-radius: 5px;
+}#s2:hover
+{
+    background-color: rgb(58, 181, 118);
+    color: white;
+    transition: 0.1s;
+}
+#s3:hover
+{
+    background-color: rgb(58, 181, 118);
+    color: white;
+    transition: 0.1s;
+}
+#s4:hover
+{
+    background-color: rgb(58, 181, 118);
+    color: white;
+    transition: 0.1s;
+}
+#s1
+{
+    width: 102.1px;
+    height: 70px;
+    
+}
+#s2
+{
+    width: 104.49px;
+    height: 70px;
+}
+#s3
+{
+    width: 127.49px;
+    height: 70px;
+}
+#s4
+{
+    width: 99px;
+    height: 70px;
+
+}
+li{
+    
+}
+.box2,.box3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    /* background-color: rgb(58, 181, 118); */
+    color: white;
+}
+.box2{
+    background-color: rgb(58, 181, 118);
+}
+.box3
+{
+    background-color: rgb(196, 227, 211);
+    color: black;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+
+}
+.list:hover
+{
+    /* border-radius: 25px; */
+    background-color: rgb(212, 210, 210);
+    transition:all 0.2s linear;
+    cursor: pointer;
+    
+    
+
+}
+.box2:hover{
+    background-color: rgb(47, 147, 96);
+
+}
+.box3:hover{
+    background-color: rgb(63, 138, 99);
+    color: aliceblue;
+}
+.child
+{
+    width: 100px;
+    height: 32px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center; 
+     justify-content: center;
+     font-family: 'Source Sans Pro Topnav', sans-serif;
+     font-size: 14px;
+     color: aliceblue;
+}
+.child:hover{
+    background-color: black;
+}
+
+
